@@ -184,6 +184,21 @@
     margin-top: 8px;
     /* font-size: 50px; */
   }
+  h3{
+        text-align: center;
+        color: #03f7ec;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    .address{
+        color: white;
+        background-color: red;
+        border: 2px solid yellow;
+        text-align: center;
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
 </style>
 
 <body>
@@ -197,15 +212,15 @@
     <div class="mid">
       <ul class="navbar">
         <li> <a href="#" class="active">Home</a></li>
-        <li> <a href="#">About Us</a></li>
-        <li> <a href="#">Fitness Calculator</a></li>
-        <li> <a href="#">Contact Us</a></li>
+        <li> <a href="about.html" target="blank">About Us</a></li>
+        <li> <a href="calculator.html" target="blank">Fitness Calculator</a></li>
+        <li> <a href="contact us.html" target="blank">Contact Us</a></li>
       </ul>
     </div>
     <!-- right box for buttons -->
     <div class="right">
-      <button class="btn1"> <img src="img/call.png" alt=""> Call Us</button>
-      <button class="btn2"> <img src="img/mail.png" alt=""> Email Us</button>
+      <a href="call.html" target="blank"><button class="btn1"> <img src="img/call.png" alt=""> Call Us</button></a>
+      <a href="mail.html" target="blank"><button class="btn2"> <img src="img/mail.png" alt=""> Email Us</button></a>
     </div>
   </header>
   <div class="container">
@@ -233,6 +248,8 @@
       <!-- <input type="submit"> -->
     </form>
   </div>
+  <div><h3>Visit our gym:</h3></div>
+    <div class="address">Gym nagar, near demo Road, Dhanbad, 82xxxx</div>
 
   </form>
 </body>
